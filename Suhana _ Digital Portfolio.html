@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://roaring-bombolone-126c90.netlify.app/#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=20c7333b-225b-4d07-b61f-1afad0293a56
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Suhana | Digital Portfolio</title>
+<style>
+:root{--bg:#0b1020;--card:#121a2d;--text:#eef2ff;--muted:#aab4cc;--accent:#7c5cff;--accent2:#00d4ff;--border:#26314d}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(135deg,#080c18,#111a31);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}.container{max-width:1100px;margin:auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:10;background:rgba(8,12,24,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.navin{height:70px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:24px;font-weight:800;color:var(--accent2)}.links{display:flex;gap:20px;align-items:center}.links a{color:var(--muted);font-weight:600}.links a:hover{color:white}
+.btn{border:0;border-radius:12px;padding:11px 16px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:white;font-weight:800;cursor:pointer}.ghost{background:transparent;border:1px solid var(--border)}
+.hero{min-height:85vh;display:grid;place-items:center}.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:40px;align-items:center}.tag{color:var(--accent2);font-weight:800}.hero h1{font-size:clamp(44px,7vw,78px);line-height:1.02;margin:10px 0}.hero h1 span{color:var(--accent)}.hero p{font-size:19px;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.avatar{width:260px;height:260px;border-radius:50%;border:5px solid var(--accent);margin:auto;display:grid;place-items:center;background:#18213a;overflow:hidden;box-shadow:0 0 50px #7c5cff44}.avatar img{width:100%;height:100%;object-fit:cover;display:none}.avatar .placeholder{font-size:80px}
+section{padding:80px 0}.title{font-size:34px;margin:0 0 8px}.sub{color:var(--muted);margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:rgba(18,26,45,.82);border:1px solid var(--border);border-radius:18px;padding:22px;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#4b5e8d}.card h3{margin-top:0}.muted{color:var(--muted)}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:8px 13px;border:1px solid var(--border);border-radius:999px;background:#151e35}.timeline{border-left:2px solid var(--accent);padding-left:22px}.timeline .card{margin-bottom:16px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.stat{font-size:28px;font-weight:800;color:var(--accent2)}footer{text-align:center;padding:30px;border-top:1px solid var(--border);color:var(--muted)}
+#admin{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:50;padding:20px;overflow:auto}.panel{max-width:900px;margin:30px auto;background:#0f1729;border:1px solid var(--border);border-radius:20px;padding:24px}.panelhead{display:flex;justify-content:space-between;align-items:center}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;color:var(--muted);font-size:13px;margin-bottom:5px}input,textarea{width:100%;padding:11px 12px;border-radius:10px;border:1px solid var(--border);background:#0a1020;color:white}textarea{min-height:100px;resize:vertical}.full{grid-column:1/-1}.admin-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}
+@media(max-width:760px){.links a{display:none}.hero-grid,.contact,.formgrid{grid-template-columns:1fr}.hero{text-align:center}.actions{justify-content:center}.grid{grid-template-columns:1fr}.avatar{width:210px;height:210px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin"><div class="logo">Suhana.</div><div class="links">
+<a href="https://roaring-bombolone-126c90.netlify.app/#about">About</a><a href="https://roaring-bombolone-126c90.netlify.app/#skills">Skills</a><a href="https://roaring-bombolone-126c90.netlify.app/#projects">Projects</a><a href="https://roaring-bombolone-126c90.netlify.app/#education">Education</a><a href="https://roaring-bombolone-126c90.netlify.app/#certificates">Certificates</a><a href="https://roaring-bombolone-126c90.netlify.app/#contact">Contact</a>
+<button class="btn ghost" onclick="openAdmin()">Admin</button></div></div></nav>
+
+<header class="hero"><div class="container hero-grid">
+<div><div class="tag">DIGITAL PORTFOLIO</div><h1>Hi, I'm <span id="heroName">Suhana</span>.</h1>
+<p id="heroIntro">A BCA student focused on software development, web development, Python, SQL, data science and problem solving.</p>
+<div class="actions"><a class="btn" href="https://roaring-bombolone-126c90.netlify.app/#projects">View Projects</a><a class="btn ghost" href="https://roaring-bombolone-126c90.netlify.app/#contact">Contact Me</a></div></div>
+<div class="avatar"><div class="placeholder">👩‍💻</div><img id="profileImg" alt="Profile photo"></div>
+</div></header>
+
+<main>
+<section id="about"><div class="container"><h2 class="title">About Me</h2><p class="sub">A quick introduction</p><div class="card"><p id="aboutText">I am Suhana, a BCA student specializing in software development with a core focus on Cloud Architecture (AWS) and DevOps engineering.</p></div></div></section>
+
+<section id="skills"><div class="container"><h2 class="title">Skills</h2><p class="sub">Technologies and strengths</p><div class="skills" id="skillsList"><span class="skill">Python</span><span class="skill">C- Programming</span><span class="skill">SQL(MySQL)</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">Problem Solving</span><span class="skill">Canva</span><span class="skill">MS- Word</span><span class="skill">MS- Powerpoint.</span></div></div></section>
+
+<section id="projects"><div class="container"><h2 class="title">Projects</h2><p class="sub">Selected work</p><div class="grid" id="projectsList"><article class="card"><h3>Student Result Management System</h3><p class="muted">An easy Student Result Management system that provide percentage, grade, fail/pass etc. details built using C Programming.</p><small>C- Programming</small></article><article class="card"><h3>Calculator</h3><p class="muted">A calculator performing basic arithmetic operations built using C Programming.</p><small>C- Programming</small></article><article class="card"><h3>Calculator</h3><p class="muted">A calculator performing basic arithmetic operations built using Python.</p><small>Python</small></article><article class="card"><h3>ATM Management System</h3><p class="muted">An easy ATM Management System that provide details of deposit, withdral, net balance etc. details built using C Programming.</p><small>C- Programming</small></article></div></div></section>
+
+<section id="education"><div class="container"><h2 class="title">Education</h2><p class="sub">Academic journey</p><div class="grid">
+<div class="card"><h3>10th</h3><div class="stat">94%</div><p class="muted">Secondary education</p></div>
+<div class="card"><h3>12th</h3><div class="stat">88.4%</div><p class="muted">Senior secondary education</p></div>
+<div class="card"><h3>BCA</h3><div class="stat">Student</div><p class="muted">Bachelor of Computer Applications</p></div>
+</div></div></section>
+
+<section id="experience"><div class="container"><h2 class="title">Experience</h2><p class="sub">Learning &amp; professional growth</p><div class="timeline" id="experienceList"><article class="card"><h3>Learning &amp; Projects</h3><strong>BCA / Academic Work</strong><p class="muted">Building projects while improving practical skills.</p></article></div></div></section>
+
+<section id="certificates"><div class="container"><h2 class="title">Certificates</h2><p class="sub">Courses and certifications</p><div class="grid" id="certificatesList"><article class="card"><h3>🏆 RS CIT</h3><p class="muted">Rajasthan State Certificate in Information Technology</p></article><article class="card"><h3>🏆 RS-CSEP</h3><p class="muted">Rajasthan State Certificate in Spoken English and Personality Development</p></article><article class="card"><h3>🏆 Artificial Intelligence</h3><p class="muted">Bharat Space Education Research Centre</p></article><article class="card"><h3>🏆 Introduction to Cyber Security</h3><p class="muted">Simplilearn</p></article><article class="card"><h3>🏆 C Programming basics</h3><p class="muted">Simplilearn</p></article></div></div></section>
+
+<section id="contact"><div class="container"><h2 class="title">Contact</h2><p class="sub">Let's connect</p><div class="contact">
+<div class="card"><h3>Email</h3><p><a id="emailLink" href="mailto:suhanasheikh855@gmail.com">suhanasheikh855@gmail.com</a></p><h3>Phone</h3><p><a id="phoneLink" href="tel:6377620050">6377620050</a></p></div>
+<div class="card"><h3>Send a message</h3><form onsubmit="sendMessage(event)"><input id="sender" required="" placeholder="Your name"><br><br><input id="senderEmail" type="email" required="" placeholder="Your email"><br><br><textarea id="message" required="" placeholder="Your message"></textarea><br><br><button class="btn">Send Email</button></form></div>
+</div></div></section>
+</main><footer>© <span id="year">2026</span> Suhana • Digital Portfolio</footer>
+
+<div id="admin" style="display: none;"><div class="panel"><div class="panelhead"><h2>Admin Panel</h2><button class="btn ghost" onclick="closeAdmin()">✕</button></div>
+<p class="muted">Edit your portfolio anytime. Changes are saved in this browser using localStorage.</p>
+<div class="formgrid">
+<div><label>Name</label><input id="aName"></div><div><label>Email</label><input id="aEmail"></div>
+<div><label>Phone</label><input id="aPhone"></div><div><label>Profile photo</label><input id="aPhoto" type="file" accept="image/*"></div>
+<div class="full"><label>Hero introduction</label><textarea id="aIntro"></textarea></div>
+<div class="full"><label>About</label><textarea id="aAbout"></textarea></div>
+<div class="full"><label>Skills (comma separated)</label><textarea id="aSkills"></textarea></div>
+<div class="full"><label>Projects — one per line: Title | Description | Tech</label><textarea id="aProjects"></textarea></div>
+<div class="full"><label>Certificates — one per line: Certificate | Description</label><textarea id="aCertificates"></textarea></div>
+<div class="full"><label>Experience — one per line: Role | Organization | Description</label><textarea id="aExperience"></textarea></div>
+</div><div class="admin-actions"><button class="btn ghost" onclick="resetData()">Reset</button><button class="btn" onclick="saveData()">Save Changes</button></div>
+</div></div>
+
+<script>
+const defaults={
+name:"Suhana",email:"suhanasheikh855@gmail.com",phone:"6377620050",
+intro:"A BCA student focused on software development, web development, Python, SQL, data science and problem solving.",
+about:"I am Suhana, a BCA student interested in building useful software and modern websites. I enjoy learning programming, databases, data science and web technologies.",
+skills:["Python","SQL","MySQL","HTML","CSS","JavaScript","Data Science","Data Analytics","Web Development","Problem Solving"],
+projects:[
+["Student Performance Dashboard","An easy data analytics project to explore student performance and visualize useful insights.","Python • Data Analytics"],
+["Personal Digital Portfolio","A responsive portfolio website with editable content and an admin panel.","HTML • CSS • JavaScript"]
+],
+certificates:[["RS CIT","Rajasthan State Certificate in Information Technology"],["RS-CSEP","Computer-related certification"] ],
+experience:[["Learning & Projects","BCA / Academic Work","Building programming, web development and data analytics projects while improving practical skills."]]
+};
+let data=JSON.parse(localStorage.getItem("suhanaPortfolio"))||defaults;
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));}
+function render(){
+document.getElementById("heroName").textContent=data.name;document.getElementById("heroIntro").textContent=data.intro;document.getElementById("aboutText").textContent=data.about;
+document.getElementById("skillsList").innerHTML=data.skills.map(x=>`<span class="skill">${esc(x)}</span>`).join("");
+document.getElementById("projectsList").innerHTML=data.projects.map(x=>`<article class="card"><h3>${esc(x[0])}</h3><p class="muted">${esc(x[1])}</p><small>${esc(x[2])}</small></article>`).join("");
+document.getElementById("certificatesList").innerHTML=data.certificates.map(x=>`<article class="card"><h3>🏆 ${esc(x[0])}</h3><p class="muted">${esc(x[1])}</p></article>`).join("");
+document.getElementById("experienceList").innerHTML=data.experience.map(x=>`<article class="card"><h3>${esc(x[0])}</h3><strong>${esc(x[1])}</strong><p class="muted">${esc(x[2])}</p></article>`).join("");
+let el=document.getElementById("emailLink");el.textContent=data.email;el.href="mailto:"+data.email;
+el=document.getElementById("phoneLink");el.textContent=data.phone;el.href="tel:"+data.phone;document.getElementById("year").textContent=new Date().getFullYear();
+if(data.photo){document.getElementById("profileImg").src=data.photo;document.getElementById("profileImg").style.display="block";document.querySelector(".placeholder").style.display="none";}
+}
+function openAdmin(){document.getElementById("admin").style.display="block";document.getElementById("aName").value=data.name;document.getElementById("aEmail").value=data.email;document.getElementById("aPhone").value=data.phone;document.getElementById("aIntro").value=data.intro;document.getElementById("aAbout").value=data.about;document.getElementById("aSkills").value=data.skills.join(", ");document.getElementById("aProjects").value=data.projects.map(x=>x.join(" | ")).join("\n");document.getElementById("aCertificates").value=data.certificates.map(x=>x.join(" | ")).join("\n");document.getElementById("aExperience").value=data.experience.map(x=>x.join(" | ")).join("\n");}
+function closeAdmin(){document.getElementById("admin").style.display="none";}
+function lines(id,n){return document.getElementById(id).value.split("\n").map(x=>x.trim()).filter(Boolean).map(x=>x.split("|").map(y=>y.trim()).slice(0,n)).filter(x=>x.length===n);}
+function saveData(){
+data.name=document.getElementById("aName").value.trim()||defaults.name;data.email=document.getElementById("aEmail").value.trim()||defaults.email;data.phone=document.getElementById("aPhone").value.trim()||defaults.phone;
+data.intro=document.getElementById("aIntro").value.trim();data.about=document.getElementById("aAbout").value.trim();data.skills=document.getElementById("aSkills").value.split(",").map(x=>x.trim()).filter(Boolean);
+data.projects=lines("aProjects",3);data.certificates=lines("aCertificates",2);data.experience=lines("aExperience",3);
+let f=document.getElementById("aPhoto").files[0];if(f){let r=new FileReader();r.onload=()=>{data.photo=r.result;finishSave()};r.readAsDataURL(f)}else finishSave();
+}
+function finishSave(){localStorage.setItem("suhanaPortfolio",JSON.stringify(data));render();closeAdmin();alert("Portfolio updated successfully!");}
+function resetData(){if(confirm("Reset all editable details to the original demo data?")){data=JSON.parse(JSON.stringify(defaults));delete data.photo;localStorage.setItem("suhanaPortfolio",JSON.stringify(data));render();openAdmin();}}
+function sendMessage(e){e.preventDefault();let subject=encodeURIComponent("Portfolio Contact from "+document.getElementById("sender").value);let body=encodeURIComponent(document.getElementById("message").value+"\n\nFrom: "+document.getElementById("senderEmail").value);location.href=`mailto:${data.email}?subject=${subject}&body=${body}`;}
+render();
+</script>
+</body></html>
